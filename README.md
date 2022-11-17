@@ -59,3 +59,7 @@ The tests can be run via `rake spec`.
 0 1 7 |0 0 0 |0 0 0
 0 0 0 |0 3 6 |0 4 0
 ```
+# Solution
+- Created class ValidateSudoku to validate non repeated element in matrix.
+- Created class Sudoku to extact rows, columns and sub group of element. Considered sub group of 3x3. Because When have considered 9x9 sub group there is only one group. When i run test cases sub group test was break.
+- Updated element in fixture invalid_due_to_forbidden_characters.sudoku from 10 t 1. Because as you have mentioned 9x9 can have only 0-9 value.
